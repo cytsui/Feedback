@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.paths.json",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "strict": true,
+        "lib": ["es6", "dom", "dom.iterable", "esnext"]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+}
